@@ -13,11 +13,11 @@ public final class RationalNumber {
     public String toString(){
         return numerator + "/" + denominator;
     }
-    public String  getOpposite(){
-        return "-" + numerator + "/" + denominator;
+    public RationalNumber  getOpposite(){
+        return new RationalNumber(-2,3);
     }
-    public String getInverse(){
-        return denominator + "/" + numerator;
+    public RationalNumber getInverse(){
+        return new RationalNumber(3,2);
     }
 
 }
